@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- App theme -->
+    <style name="Theme.PlantDiseaseRecognizer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary branding colors -->
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorPrimaryVariant">@color/green_primary_dark</item>
+        <item name="colorSecondary">@color/accent_orange</item>
+
+        <!-- System bar colors -->
+        <item name="android:statusBarColor">@color/green_primary_dark</item>
+        <item name="android:navigationBarColor">@color/green_primary</item>
+
+        <!-- Shape scheme -->
+        <item name="shapeAppearanceSmallComponent">@style/Shape.PlantDisease</item>
+        <item name="shapeAppearanceMediumComponent">@style/Shape.PlantDisease</item>
+        <item name="shapeAppearanceLargeComponent">@style/Shape.PlantDisease</item>
+    </style>
+
+    <!-- Rounded-corner shape -->
+    <style name="Shape.PlantDisease" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <!-- Typography -->
+    <style name="TextAppearance.PlantDisease.Title" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/robotomedium</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextAppearance.PlantDiseaseRecognizer.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/robotoregular</item>
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+
+    <style name="TextAppearance.PlantDiseaseRecognizer.Subheading"
+        parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:fontFamily">@font/robotomedium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/green_primary_dark</item>
+    </style>
+
+</resources>

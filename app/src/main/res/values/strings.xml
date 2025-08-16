@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DeepLeaf</string>
+    <string name="btn_capture">Capture</string>
+    <string name="btn_gallery">Gallery</string>
+    <string name="preview_image_desc">Detected leaf preview</string>
+    <string name="prediction_header">Prediction</string>
+    <string name="result_placeholder">Awaiting prediction…</string>
+</resources>
